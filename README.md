@@ -7,9 +7,9 @@ This project aims at solving Problems [AtCoder-Beginner-Contest-207] with C Lang
 
 | Title    | Problems                                            | Subjects         | Solution          | Difficulty A...F   |
 | --- | ---------------------------------------------------- | -------- | ----------------- | ----- |
-| A   | [Repression]                             | [A.txt]   | [A.C] | A    |
-| B   | [Hydrate]                                         |[B.txt]  | [B.C]      | B   	 |
-| C   | [Many Segments]           | [C.txt]  | [C.C]               | C   |
+| A   | [Repression]                             | [A.txt](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/A__Repression/Subject.txt)   | [A.C](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/A__Repression/A__Repression.c) | A    |
+| B   | [Hydrate]                                         |[B.txt](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/B__Hydrate/Subject.txt)  | [B.C](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/B__Hydrate/B__Hydrate.c)      | B   	 |
+| C   | [Many Segments]           | [C.txt](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/C__Many/Subject.txt)  | [C.C](https://github.com/ael-bekk/AtCoder-Beginner-Contest-207/blob/main/C__Many/C__Many.c)               | C   |
 
 [Repression]: https://atcoder.jp/contests/abc207/tasks/abc207_a
 [Hydrate]: https://atcoder.jp/contests/abc207/tasks/abc207_b
