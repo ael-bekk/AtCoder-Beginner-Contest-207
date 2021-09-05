@@ -1,0 +1,89 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Subject.txt                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ael-bekk <abekkali451@gmail.com>           +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/06 00:07:52 by ael-bekk          #+#    #+#             */
+/*   Updated: 2021/09/06 00:07:52 by ael-bekk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+C - Many Segments  / 
+
+
+Time Limit: 2 sec / Memory Limit: 1024 MB
+
+Score : 300 points
+
+Problem Statement
+You are given N intervals numbered 1 through N, that are as follows:
+
+	if ti = 1, Interval i is [li, ri];
+	if ti = 2, Interval i is [l i, ri);
+	if ti = 3, Interval i is (li, ri];
+	if ti = 4, Interval i is (l i, ri).
+
+How many pairs of integers (i,j) satisfying 1≤i<j≤N are there such that Interval i and Interval j intersect?
+
+What are [X,Y],[X,Y),(X,Y],(X,Y)?
+Constraints
+	2≤N≤2000
+	1≤ti≤4
+	1≤li<ri≤10^9
+ 
+All values in input are integers.
+Input
+Input is given from Standard Input in the following format:
+
+	N
+	t1​l1​r1
+	​ 
+	t2​l2​r2
+	​
+	⋮
+	tN​lN​rN
+	​
+ 
+Output
+Print the number of pairs of integers (i,j) such that Interval i and Interval j intersect.
+
+Sample Input 1 
+
+	3
+	1 1 2
+	2 2 3
+	3 2 4
+Sample Output 1 
+
+	2
+As defined in the Problem Statement, Interval 1 is [1,2], Interval 2 is [2,3), and Interval 3 is (2,4].
+
+There are two pairs of integers (i,j) such that Interval i and Interval j intersect: (1,2) and (2,3). For the first pair, the intersection is [2,2], and for the second pair, the intersection is (2,3).
+
+Sample Input 2 
+
+	19
+	4 210068409 221208102
+	4 16698200 910945203
+	4 76268400 259148323
+	4 370943597 566244098
+	1 428897569 509621647
+	4 250946752 823720939
+	1 642505376 868415584
+	2 619091266 868230936
+	2 306543999 654038915
+	4 486033777 715789416
+	1 527225177 583184546
+	2 885292456 900938599
+	3 264004185 486613484
+	2 345310564 818091848
+	1 152544274 521564293
+	4 13819154 555218434
+	3 507364086 545932412
+	4 797872271 935850549
+	2 415488246 685203817
+Sample Output 2 
+
+	102
