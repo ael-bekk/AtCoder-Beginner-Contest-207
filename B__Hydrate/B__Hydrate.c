@@ -18,22 +18,22 @@ int main()
  	int i;
  
   	scanf("%d %d %d %d", &a, &b, &c, &d);
-  	red = 0;
+  	
+	red = 0;
   	cyan = a;
-  
   	if (b >= c * d)
-    {
-    	printf("-1");
-    	return (0);
-    }
+    	{
+    		printf("-1");
+    		return (0);
+    	}
   
   	i = 0;
  	while (cyan > red * d)
-    {
-    	red += c;
+    	{
+    		red += c;
   		cyan += b;
-      	i++;
-    }
+      		i++;
+    	}
   	printf("%d", i);
 	return (0);
 }
