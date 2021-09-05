@@ -16,12 +16,13 @@ int main()
 	int i, a, b, c;
  
   	scanf("%d %d %d", &a, &b, &c);
-  	i = 0;
+  	
+	i = 0;
   	if (a <= b && a <= c)
-      printf("%d", b + c);
+      		printf("%d", b + c);
   	else if (b <= a && b <= c)
-      printf("%d", a + c);
+      		printf("%d", a + c);
   	else
-      printf("%d", b + a);
+      		printf("%d", b + a);
 	return (0);
 }
